@@ -3,7 +3,7 @@ import inflect, sys
 
 
 
-from characters.wizzards import (
+from wizzards import (
     AntimagicWizzard,
     WindWizzard,
     HealerWizzard,
@@ -11,7 +11,7 @@ from characters.wizzards import (
     WaterWizzard,
     FireWizzard,
 )
-from mechanics.logic import (
+from logic import (
     choosePlayer,
     chooseTeam,
     rivals,
