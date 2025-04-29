@@ -214,7 +214,7 @@ class Wizzard:
     def Attack(self, enemy):
         if random.random() < enemy.dodge_attack:
             value = [
-                "{color}{name}{reset_color} is attacking {enemy_name}",
+                "{color}{name}{reset_color} is attacking {enemy_name} with {red_color}????{reset_red_color} points of damage",
                 "{enemy_name} has dodge {name} attack",
             ]
             enemy.dodge_attack = 0.01
